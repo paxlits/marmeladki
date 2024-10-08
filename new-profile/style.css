@@ -1,0 +1,564 @@
+@font-face {
+    font-family: 'Chintabelia';
+    src:url('/fonts/Chintabelia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mishki{
+    width: auto;
+    height: 3vw;
+    display: inline-block;
+}
+
+.marm{
+    font-family: "Chintabelia";
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.svg_teleg{
+    width: auto;
+    height: 1.3vw;  
+    margin-left: 0.4vw;
+}
+
+.header_butn{
+    background-color: white;
+    border: 0;
+    height: 2vw;
+    width: 10vw;
+}
+
+.tg_text1{
+    font-size: 0.7vw;
+}
+
+.button-text span {
+    width: 1vw;;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+.add1{
+    font-size: 2vw;
+    margin-left: 28vw;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span1{
+    font-size: 1vw;
+    letter-spacing: 0.08vw;
+    margin-top: 2vw;
+    font-style: italic;
+}
+
+.add2{
+    margin-left: 28vw;
+    font-size: 0.8vw;
+    margin-top: 0.1vw;
+}
+.add_profile {
+    margin-top: 3vw;
+}
+#dropdown{
+    width: 8.2vw;
+    margin-left: 28vw;
+    height: 1.5vw;
+    margin-top: 0.4vw;
+    border:0;
+    border-radius: 0.5vh;
+    background-color: white;
+}
+
+.input1{
+    width: 35vw;
+    margin-left: 28vw;
+    border: 0;
+    border-radius: 0.5vh;
+    height: 1.8vw;
+    margin-top: 0.4vw;
+}
+
+body{
+    background-color:#ececec;
+}
+
+.fill{
+    margin-top: 2vw;
+}
+
+/* Общие стили для чекбоксов */
+.checkbox-group {
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 0.1vw;
+    color: #333;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .checkmark {
+    position: relative;
+    height: 1vw;
+    width: 1vw;
+    background-color: #eee;
+    border: 0.1vw solid #999;
+    border-radius: 0.2vw;
+    margin-right: 1vw;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Розовый фон при выборе чекбокса */
+.custom-checkbox input:checked + .checkmark {
+    background-color: #d966ff; /* Розовый цвет */
+    border-color: #d966ff;
+}
+
+/* Галочка */
+.custom-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox input:checked + .checkmark:after {
+    display: block;
+}
+
+.custom-checkbox .checkmark:after {
+    left: 0.3vw;
+    top: 0.05vw;
+    width: 0.3vw;
+    height: 0.6vw;
+    border: solid white;
+    border-width: 0 0.15vh 0.15vh 0;
+    transform: rotate(45deg);
+}
+
+.checkbox-group{
+    margin-top: 0.5vw;
+    margin-left: 28vw;
+}
+
+.checkbox-group1{
+    margin-top: 0.5vw;
+    margin-left: 28vw;
+}
+
+.custom-checkbox{
+    margin-right: 3.1vw;
+}
+
+.apa{
+    font-size: 0.6vw;
+    margin-right: 0.5vw;
+}
+
+.apa1{
+    font-size: 0.6vw;
+    margin-right: 0.65vw;
+}
+
+.apa2{
+    font-size: 0.6vw;
+    margin-right: 0.9vw;
+}
+
+.switch{
+    margin-left: 28vw;
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+}
+
+.add_pic{
+    border-radius: 1vh;
+    border: 0;
+    width: 10vw;
+    height: 2.5vw;
+    margin-left: 28vw;
+    margin-top: 1vw;
+    background: linear-gradient(to right, #8a2be2, #c300d5);
+    font-size: 0.75vw;
+}
+
+.add_pict{
+    color:white;
+}
+
+
+
+
+
+
+
+.container {
+
+    display: flex;
+
+    margin-left: 28vw;
+
+}
+
+.image-container {
+
+    margin-top: 2vw;
+
+    position: relative;
+    margin-right: 2.3vw;
+
+    width: 10%; /* Подгоните ширину по необходимости (4 изображения) */
+
+}
+
+.image-container img {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 1vh;
+}
+
+.radio {
+
+    position: absolute;
+
+    top: 0.2vw; /* Расположение радио в правом верхнем углу */
+
+    right: 0.2vw;
+
+    appearance: none; /* Убираем стандартный стиль */
+
+    width: 1vw; /* Ширина кнопки */
+
+    height: 1vw; /* Высота кнопки */
+
+    background-color: white; /* Фоновый цвет */
+
+    border: 0.2vw solid violet; /* Цвет границы */
+
+    border-radius: 1vh; /* Округлые границы */
+
+    outline: none; /* Убираем обводку при фокусе */
+
+    cursor: pointer; /* Курсор при наведении */
+
+}
+
+.radio:checked {
+
+    background-color: violet; /* Цвет заполнения при выборе */
+
+}
+
+.save{
+    border-radius: 1vh;
+    border: 0;
+    width: 7vw;
+    height: 2.5vw;
+    margin-left: 28vw;
+    margin-top: 1vw;
+    background: linear-gradient(to right, #8a2be2, #c300d5);
+    font-size: 0.75vw;
+}
+
+.footer {
+    margin-top: 0vw;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+.text-footer {
+    font-size: 0.8vw;
+    vertical-align: bottom;
+    margin-left: 28vw;
+}
+.img-footer {
+    right: 0;
+    width: 8vw;
+    height: 2.2vw;
+    margin-left: auto;
+    margin-right: 36vw;
+}
+
+.line1{
+    margin-top: 3vw;
+    height: 0.05vw;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 1vw;
+}
+
+.line2{
+    margin-top: 1vw;
+    height: 0.05vw;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 0.5vw;
+}
+.mobile-btn {
+    display: none;
+}
+header {
+    width: 100vw;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    background: #ececec;
+    display: flex; /* Используем flexbox для выравнивания */
+
+    align-items: center; /* Вертикальное выравнивание */
+
+    padding: 0.1vw 0.2vw; /* Отступы */
+
+}
+
+.logo {
+    margin-left: 23vw;
+    display: flex;
+    font-size: 1.5vw;
+    margin-right: 6vw;
+    width: 5vw;
+}
+
+nav {
+
+    display: flex; /* Размещаем элементы навигации в ряд */
+
+}
+
+nav a {
+
+    color: #4B0082; /* Цвет ссылок */
+
+    text-decoration: none; /* Убираем подчеркивание */
+
+    margin: 0vw 1vw; /* Отступы между ссылками */
+
+    padding: 0.1vw; /* Отступы вокруг текста */
+
+    font-size: 0.75vw;
+
+}
+
+nav a:hover {
+
+    font-weight: bold;
+    color: #8a2be2; /* Увеличиваем жирность при наведении */
+
+}
+
+.button {
+
+    background-color: #4B0082; /* Цвет фона кнопки */
+
+    color: white; /* Цвет текста кнопки */
+
+    padding: 0.5vw 0.5vw; /* Отступы внутри кнопки */
+
+    border: none; /* Убираем границу */
+
+    border-radius: 0.5vh; /* Закругление углов */
+
+    cursor: pointer; /* Курсор при наведении */
+
+}
+
+.button:hover {
+
+    background-color: #3e0051; /* Темнее при наведении */
+
+}
+
+.tg{
+    display: flex;
+    margin-left: 1.5vw;
+    
+}
+.input1 {
+    font-size: 1.2vw;
+}
+@media ( orientation:portrait ) {
+    .add1 {
+        font-size: 10vw;
+        width: 90vw;
+        margin-left: 5vw;
+        
+        text-align: left;
+        margin-bottom: 3.5vh;
+    }
+    .input1 {
+        font-size: 2vh;
+    }
+    .add2 {
+        font-size: 6vw;
+        width: 90vw;
+        margin-left: 5vw;
+        text-align: left;
+    }
+    #dropdown {
+        margin-left: 5vw;
+        height: 5vh;
+        width: 90vw;
+    }
+    .span1 {
+        font-size: 4vw;
+    }
+    .add1 > * {
+        display: inline-block;
+    }
+    .apa {
+        font-size: 5vw;
+    }
+    .checkbox-group {
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 5vh;
+        margin-left: 5vw;
+        width: 90vw;
+    }
+    .checkbox-group1 {
+        display: none;
+    }
+    .input1 {
+        width: 90vw;
+        height: 5vh;
+        margin-left: 5vw;
+    }
+    .custom-checkbox .checkmark {
+        height: 8vw;
+        width: 8vw;
+        margin-left: 5vw;
+    }
+    .custom-checkbox .checkmark::after {
+        width: 3vw;
+        height: 3vw;
+        left: 3.8vw;
+        top: 3vw;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .apa1 {
+        font-size: 6vw;
+    }
+    .apa2 {
+        font-size: 6vw
+    }
+    .switch {
+        margin-left: 5vw;
+        font-size: 6vw;
+    }
+    .add_pic {
+        margin-top: 2vh;
+        margin-left: 5vw;
+        width: 90vw;
+        height: 7vh;
+    }
+    .add_pict {
+        font-size: 4vw;
+    }
+    .image-container {
+        width: 40vw;
+        height: 12vh;
+        margin-right: 0;
+    }
+    .image-container img {
+        width: 40vw;
+        height: 12vh;
+        object-fit: cover;
+        object-position: 0 20%;
+    }
+    .container {
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        height: 30vh;
+        margin-left: 5vw;
+    }
+    .save {
+        margin-left: 5vw;
+        width: 90vw;
+        height: 5vh;
+    }
+    .radio {
+        width: 3vw;
+        border-radius: 50%;
+        height: 3vw;
+    }
+    .footer {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100vw;
+        transform: translate(0, 0);
+        height: 35vw;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-footer {
+        font-size: 5vw;
+        margin: 0;
+    }
+    
+    .img-footer {
+        margin: 0;
+        right: 0;
+        width: 40vw;
+        height: 13vw;
+        margin-left: 0;
+    }
+    .logo {
+        margin-left: 5vw;
+        width: 50vw;
+    }
+    .mishki {
+        height: 15vw;
+        width: 15vw;
+    }
+    .marm {
+        transform: translate(0, 0%);
+        margin-top: 4vw;
+        font-size: 8vw;
+    }
+    nav, .tg {
+        display: none;
+    }
+    .mobile-btn {
+        margin-left: 15vw;
+        width: 20vw;
+        height: 18vw;
+        outline: none;
+        border: 0;
+    }
+    .mobile-btn {
+        display: block;
+    }
+    .add_profile {
+        margin-top: 20vw;
+    }
+}

@@ -1,0 +1,558 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face { 
+    font-family: "preffermediaeval"; 
+    src: url("Pfeffermediaeval.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: 'Chintabelia';
+    src:url('/fonts/Chintabelia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.mishki {
+    width: auto;
+    height: 3vw;
+    display: inline-block;
+}
+h1 {
+    margin-top: 5vw;
+    font-size: 4.1vw;
+    font-family: "preffermediaeval";
+    font-weight: 100;
+}
+* {
+    font-family: "Montserrat";
+}
+.city {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-weight: 300;
+}
+.mobile-btn {
+    display: none;
+}
+.tg_text1{
+    font-size: 0.7vw;
+}
+.svg_teleg{
+    width: auto;
+    height: 1.3vw;  
+    margin-left: 0.4vw;
+}
+.marm {
+    font-family: "Chintabelia";
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.header_butn{
+    background-color: white;
+    border: 0;
+    height: 2vw;
+    width: 10vw;
+}
+header {
+    width: 100vw;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    background: #ececec;
+    display: flex;
+    align-items: center;
+    padding: 0.1vw 0.2vw;
+
+}
+
+.logo {
+    margin-left: 23vw;
+    display: flex;
+    font-size: 1.5vw;
+    margin-right: 6vw;
+    width: 5vw;
+}
+
+nav {
+
+    display: flex; /* Размещаем элементы навигации в ряд */
+
+}
+
+nav a {
+
+    color: #4B0082; /* Цвет ссылок */
+
+    text-decoration: none; /* Убираем подчеркивание */
+
+    margin: 0vw 1vw; /* Отступы между ссылками */
+
+    padding: 0.1vw; /* Отступы вокруг текста */
+
+    font-size: 0.75vw;
+
+}
+
+nav a:hover {
+
+    font-weight: bold;
+    color: #8a2be2; /* Увеличиваем жирность при наведении */
+
+}
+
+.button {
+
+    background-color: #4B0082; /* Цвет фона кнопки */
+
+    color: white; /* Цвет текста кнопки */
+
+    padding: 0.5vw 0.5vw; /* Отступы внутри кнопки */
+
+    border: none; /* Убираем границу */
+
+    border-radius: 0.5vh; /* Закругление углов */
+
+    cursor: pointer; /* Курсор при наведении */
+
+}
+
+.button:hover {
+
+    background-color: #3e0051; /* Темнее при наведении */
+
+}
+
+.tg{
+    display: flex;
+    margin-left: 1.5vw;
+    
+}
+.head-part {
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 5vw;
+    height: 50vw;
+    z-index: 2;
+    position: relative;
+
+}
+.plusi > div {
+    height: auto;
+    position: relative;
+}
+.women__head-part {
+    width: 28vw;
+    margin-left: 0vw;
+    top: 8vw;
+    z-index: -1;
+
+}
+.plusi {
+    width: 26vw;
+    box-shadow: 0vw 0vw 2vw 0.0vw gray;
+    text-align: left;
+    font-size: 1.5vw;
+    background-color: white;
+    padding: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-flow: column;
+}
+.main__head-part {
+    height: 45vw;
+    display: flex;
+    align-items: center;
+}
+.head-part > div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.svg__plusi {
+    width: 3vw;
+    margin-right: 2vw;
+}
+.plusi > div {
+    margin-bottom: 2vw;
+    display: flex;
+}
+.plusi > button {
+    background: linear-gradient(to right, #ff24da, #8a2be2);
+    color: white;
+    border: 0;
+    
+    font-size: 1.2vw;
+    border-radius: 0.8vw;
+    height: 4vw;
+    border-bottom: #8a2be2 0.2vw solid;
+}
+
+.content {
+    z-index: 3;
+    position: relative;
+    background-color: white;
+}
+.div__4216 {
+    background-repeat: repeat-x;
+    width: 100vw;
+    background-size: contain;
+    height: 5vw;
+    background-image: url("4261.png");
+}
+.arrow__plusi {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 1vw;
+    width: 2vw;
+}
+.content-main {
+    margin-top: 4vw;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.label__select-girl {
+    display: flex;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    align-items: center;
+}
+.label-text__select-girl {
+    font-size: 3vw;
+}
+.jelly-cats2 {
+    width: 4vw;
+    margin-left: 1vw;
+}
+.card-woman {
+    box-shadow: 0vw 0vw 2vw 0.0vw gray;
+    border-radius: 1vw;
+    display: flex;
+    flex-flow: column;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    width: 23vw;
+    height: 21vw;
+}
+.name__card {
+    position: absolute;
+    box-shadow: 0.1vw 0.1vw 2vw 0.1vw #8a2be2;
+    transform: translate(-50%, -40%);
+    background: #ae57ff;
+    font-size: 1vw;
+    font-style: italic;
+    color: white;
+    border-radius: 20vw;
+    height: 2vw;
+    width: 6vw;
+    border: 0;
+    
+}
+.param-woman {
+    font-size: 0.9vw;
+}
+.number__div {
+    font-size: 0.8vw;
+    margin-left: 0.5vw;
+    border-bottom: 0.1vw black solid;
+}
+.params-woman {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.number-div {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7vw;
+    margin-left: 1.5vw;
+}
+.women-img__card {
+    border-radius: 1vw;
+}
+.phone-svg__card {
+
+    width: 1vw;
+    height: 1vw;
+}
+.btn-filters {
+    background: linear-gradient(to right, #ff24da, #8a2be2);
+    border-radius: 5vw;
+    width: 10vw;
+    height: 3.5vw;
+    padding: 0.3vw;
+    border: 0;
+    color: white;
+    font-size: 1.2vw;
+    margin-left: auto;
+}
+
+.price-btn {
+    position: relative;
+    transform: translate(-50%, 35%);
+    left: 50%;
+    
+    bottom: 0;
+    font-size: 1.2vw;
+    
+    border-radius: 0.4vw;
+    height: 3vw;
+    width: 12vw;
+    color: white;
+    border: 0;
+    background: rgba(216, 110, 243, 1);
+    border-bottom: #8a2be2 0.2vw solid;
+    
+}
+.women1-div {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+}
+.rules {
+    margin-top: 3vw;
+    border: 0.1vw black solid;
+    padding: 2vw;
+}
+.label-rules {
+    font-size: 1.7vw;
+    font-style: italic;
+    font-weight: 550;
+    color: rgb(199, 78, 171);
+}
+.rules > p {
+    font-size: 1.2vw;
+}
+
+.more-woman {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(216, 110, 243, 1);
+    border: 0;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 0.4vw;
+    border-bottom: #8a2be2 0.2vw solid;
+    height: 2.5vw;
+    width: 6vw;
+}
+.footer {
+    margin-top: 8vw;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+.text-footer {
+    font-size: 1.2vw;
+    vertical-align: bottom;
+
+}
+h1 > span {
+    font-size: 5vw;
+    font-family: "preffermediaeval";
+}
+.img-footer {
+    right: 0;
+    width: 8vw;
+    height: 2.2vw;
+    margin-left: auto;
+}
+@media (orientation: portrait) {
+    .head-part {
+        height: calc( 37.5vh + 10vw);
+        display: inherit;
+    }
+    .main__head-part {
+        height: 30vh;
+    }
+    h1 {
+        margin-top: 0vh;
+        font-size: 12vw;
+    }
+    .btn-filters {
+        font-size: 0;
+        background-image: url(filter.svg);
+        background-color: #b957ff;
+        background-size: cover;
+        height: 7.5vh;
+        width: 7.5vh;
+    }
+    .women1-div {
+        flex-flow: column;
+        align-items: center;
+    }
+    h1 > span {
+        font-size: 14vw;
+    }
+    .city {
+        font-size: 2.5vh;
+    }
+    .svg__plusi {
+        transform: translate(0%, -20%);
+        width: 2.5vh;
+    }
+    .plusi {
+        box-shadow: 0 0 0 0;
+        margin-left: 1vw;
+        width: 55vw;
+        height: auto;
+        background: transparent;
+        transform: translate(20%, 0);
+        font-size: 1.5vh;
+    }
+    .women__head-part {
+        width: 30vh;
+        width: 22vh;
+        position: absolute;
+        transform: translate(-10%, 20%);
+    }
+    .plusi > button {
+        height: 5vh;
+        position: relative;
+        border-radius: 1.2vh;
+        margin-top: 4vh;
+        width: 70vw;
+        font-size: 1.3vh;
+    }
+    .arrow__plusi {
+        position: relative;
+        margin-left: auto;
+        margin-right: 10vw;
+        width: 3vh;
+    }
+    .div__4216 {
+        height: 5vh;
+    }
+    .content-main {
+        width: 90vw;
+    }
+    .label-text__select-girl {
+        font-size: 5vh;
+        line-height: 1;
+        width: 21vh;
+    }
+    .jelly-cats2 { 
+        width: 6vh;
+    }
+    .card-woman {
+        margin-top: 3vh;
+        width: 70vw;
+        margin-bottom: 2vh;
+        height: 40vh;
+        border-radius: 3vh;
+    }
+    .name__card {
+        height: 4vh;
+        width: 12vh;
+        font-size: 2vh;
+    }
+    .number-div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .phone-svg__card {
+        width: 3vh;
+        height: 3vh;
+        transform: translate(0, 15%);
+    }
+    .number__div {
+        font-size: 1.5vh;
+    }
+    .params-woman {
+        margin-top: 1vh;
+    }
+    .param-woman {
+        font-size: 1.5vh;
+    }
+    .price-btn {
+        width: 50vw;
+        border-radius: 1vh;
+        font-size: 1.5vh;
+        height: 5vh;
+    }
+    .more-woman {
+        width: 30vw;
+        height: 4vh;
+        border-radius: 1vh;
+        font-size: 2vh;
+    }
+    
+    .rules > p {
+        font-size: 1.5vh;
+    }
+    .label-rules {
+        font-size: 1.7vh;
+    }
+    .footer {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100vw;
+        transform: translate(-5vw, 0);
+        height: 35vw;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-footer {
+        font-size: 5vw;
+        margin: 0;
+    }
+    
+    .img-footer {
+        margin: 0;
+        right: 0;
+        width: 40vw;
+        height: 13vw;
+        margin-left: 0;
+    }
+    .head-part {
+        margin-top: 20vw;
+    }
+    .logo {
+        margin-left: 5vw;
+        width: 50vw;
+    }
+    .mishki {
+        height: 15vw;
+        width: 15vw;
+    }
+    .marm {
+        transform: translate(0, 0%);
+        margin-top: 4vw;
+        font-size: 8vw;
+    }
+    nav, .tg {
+        display: none;
+    }
+    .mobile-btn {
+        margin-left: 15vw;
+        width: 20vw;
+        height: 18vw;
+        outline: none;
+        border: 0;
+    }
+    .mobile-btn {
+        display: block;
+    }
+    .add_profile {
+        margin-top: 20vw;
+    }
+
+}
+@media ( height <= 750px ) and (orientation: portrait) {
+    .card-woman {
+        height: 45vh;
+    }
+}

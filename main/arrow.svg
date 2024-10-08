@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" version="1.1" xml:space="preserve">
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <path d="m64,88a3.99,3.99 0 0 1 -2.83,-1.17l-40,-40c-1.56,-1.56 -1.56,-4.1 0,-5.66s4.1,-1.56 5.66,0l37.17,37.17l37.17,-37.17c1.56,-1.56 4.1,-1.56 5.66,0s1.56,4.1 0,5.66l-40,40a3.99,3.99 0 0 1 -2.83,1.17z" data-original="#000000" fill="url(#svg_5)" id="svg_2"/>
+  </g>
+ </g>
+ <defs>
+  <linearGradient fx="1" fy="0" id="svg_5" x1="0" x2="1" y1="0" y2="0">
+   <stop id="jq_stop_2527" offset="0" stop-color="#ff24da" stop-opacity="0.99"/>
+   <stop id="jq_stop_2265" offset="1" stop-color="#8a2be2" stop-opacity="1"/>
+   <stop id="jq_stop_7508" offset="1" stop-color="#ff24da" stop-opacity="1"/>
+  </linearGradient>
+ </defs>
+</svg>

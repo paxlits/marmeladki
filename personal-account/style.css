@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'Chintabelia';
+    src:url('/fonts/Chintabelia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.img__anketa {
+    object-fit: cover;
+}
+.mishki{
+    width: auto;
+    height: 3vw;
+    display: inline-block;
+}
+.mobile-btn {
+    display: none;
+}
+.marm{
+    font-family: "Chintabelia";
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.svg_teleg{
+    width: auto;
+    height: 1.3vw;  
+    margin-left: 0.4vw;
+}
+
+.header_butn{
+    background-color: white;
+    border: 0;
+    height: 2vw;
+    width: 10vw;
+}
+
+.tg_text1{
+    font-size: 0.7vw;
+}
+
+header {
+
+    display: flex; /* Используем flexbox для выравнивания */
+
+    align-items: center; /* Вертикальное выравнивание */
+
+    padding: 0.1vw 0.2vw; /* Отступы */
+
+}
+
+.logo {
+    margin-left: 27vw;
+    display: flex;
+    font-size: 1.5vw;
+    margin-right: 6vw;
+    width: 5vw;
+}
+
+nav {
+
+    display: flex; /* Размещаем элементы навигации в ряд */
+
+}
+
+nav a {
+
+    color: #734594; /* Цвет ссылок */
+
+    text-decoration: none; /* Убираем подчеркивание */
+
+    margin: 0vw 1vw; /* Отступы между ссылками */
+
+    padding: 0.1vw; /* Отступы вокруг текста */
+
+    font-size: 0.75vw;
+
+}
+
+nav a:hover {
+
+    font-weight: bold;
+    color: #8a2be2; /* Увеличиваем жирность при наведении */
+
+}
+
+.tg{
+    display: flex;
+    margin-left: 1.5vw;
+    
+}
+
+body{
+    background-color:#ececec;
+}
+
+.akk_pol{
+    font-size: 1.7vw;
+    margin-top: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.akk_pol1{
+    font-size: 1.7vw;
+    margin-top: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.akk{
+    margin-left: 32vw;
+}
+
+.leave{
+    border-radius: 3vh;
+    border: 0;
+    width: 6vw;
+    height: 2.5vw;
+    margin-top: 1vw;
+    background: linear-gradient(to right, #8a2be2, #c300d5);
+    font-size: 0.75vw;
+    display: flex;
+}
+
+.leave_svg{
+    width: auto;
+    height: 1vw;
+    margin-left: 0.8vw;
+    margin-top: 0.6vw;
+}
+
+.p_leave{
+    color: white;
+    margin-left: 0.4vw;
+    font-size: 0.85vw;
+    margin-top: 0.5vw;
+}
+
+.add1{
+    color: white;
+    margin-left: 0.7vw;
+    font-size: 0.85vw;
+    margin-top: 0.5vw;
+}
+
+.p_st{
+    font-size: 0.9vw;
+    margin-top: 2vw;
+    width: 40vw;
+}
+
+.p_pay{
+    font-size: 0.9vw;
+    margin-top: 0.5vw;
+    width: 40vw;
+
+}
+
+.anketa1{
+    margin-top: 3vw;
+    display: flex;
+    background-color: white;
+    padding: 1.5vw;
+    width: 38vw;
+    border-radius: 1vw;
+    box-shadow: rgb(155, 155, 155) 0px 0px 18px 5px;
+    margin-bottom: 3vw;
+}
+
+.img__anketa{
+    width: 12vw;
+    height: 9vw;
+    border-radius: 1vw;
+    margin-right: 2vw;
+    
+}
+
+.name__anketa{
+    font-size: 2vw;
+    text-decoration: underline;
+    margin-bottom: 0.9vw;
+    font-size: 2vw;
+}
+
+.act{
+    color: rgb(72, 145, 0);
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+
+.redact{
+    width: 7vw;
+    height: 2vw;
+    margin-left: 2vw;
+    background: linear-gradient(to right, #8a2be2, #c300d5);
+    border-radius: 0.4vw;
+    border: 0;
+    color:white;
+    font-size: 0.8vw;
+}
+
+.prosm{
+    font-size: 0.8vw;
+}
+
+.data{
+    margin-bottom: 0.5vw;
+    font-size: 0.8vw;
+}
+
+.act1{
+    margin-bottom: 0.5vw;
+    font-size: 0.9vw;
+}
+
+.prod{
+    background: linear-gradient(to right, #8a2be2, #c300d5);
+    border-radius: 2vh;
+    width: 1.5vw;
+    height: 1.5vw;
+    border: 0;
+    margin-top: 2.6vw;
+    position: absolute;
+}
+
+.nomer__ank{
+    color:rgb(196, 196, 196);
+    font-size: 0.75vw;
+    width: 7vw;
+    margin-top: 6vw;
+    margin-left: 3vw;
+    
+}
+
+.line3{
+    height: 0.15vw;
+    background-color: rgb(199, 199, 199);
+    width: 38vw;
+    border-radius: 1vw;
+}
+
+.act2{
+    margin-bottom: 0.5vw;
+    font-size: 0.9vw;
+    color:red
+}
+
+.footer {
+    margin-top: 0vw;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+.text-footer {
+    font-size: 0.8vw;
+    vertical-align: bottom;
+    margin-left: 32vw;
+}
+.img-footer {
+    right: 0;
+    width: 8vw;
+    height: 2.2vw;
+    margin-left: auto;
+    margin-right: 36vw;
+}
+
+.line1{
+    margin-top: 3vw;
+    height: 0.05vw;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 1vw;
+}
+
+.line2{
+    margin-top: 1vw;
+    height: 0.05vw;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 0.5vw;
+}
+
+@media ( orientation : portrait ){
+    .akk_pol{
+        margin-top: 8vh;
+        font-size: 7vw;
+        width: 50vh;
+    }
+
+    .akk_pol1{
+        margin-top: 2vhvh;
+        font-size: 7vw;
+        width: 90vw;
+    }
+
+    .akk{
+        margin-left: 3vh;
+    }
+
+    .leave{
+        width: 15vh;
+        height: 5vh;
+        
+    }
+
+    .p_leave{
+        font-size: 2.5vh;
+        margin-top: 0.5vh;
+        margin-left: 1vh;
+        font-style: italic;
+    }
+
+    .leave_svg{
+        margin-top: 0vh;
+        width: 2.5vh;
+        height: auto;
+        margin-left: 1vh;
+    }
+
+    header {
+        z-index: 200;
+        position: fixed;
+        top: 0;
+        background: #ececec;
+        display: flex; /* Используем flexbox для выравнивания */
+    
+        align-items: center; /* Вертикальное выравнивание */
+    
+        padding: 0.1vw 0.2vw; /* Отступы */
+    
+    }
+    
+    .logo {
+        margin-left: 23vw;
+        display: flex;
+        font-size: 1.5vw;
+        margin-right: 6vw;
+        width: 5vw;
+    }
+    
+    nav {
+    
+        display: flex; /* Размещаем элементы навигации в ряд */
+    
+    }
+    
+    nav a {
+    
+        color: #4B0082; /* Цвет ссылок */
+    
+        text-decoration: none; /* Убираем подчеркивание */
+    
+        margin: 0vw 1vw; /* Отступы между ссылками */
+    
+        padding: 0.1vw; /* Отступы вокруг текста */
+    
+        font-size: 0.75vw;
+    
+    }
+    
+    nav a:hover {
+    
+        font-weight: bold;
+        color: #8a2be2; /* Увеличиваем жирность при наведении */
+    
+    }
+    
+    .button {
+    
+        background-color: #4B0082; /* Цвет фона кнопки */
+    
+        color: white; /* Цвет текста кнопки */
+    
+        padding: 0.5vw 0.5vw; /* Отступы внутри кнопки */
+    
+        border: none; /* Убираем границу */
+    
+        border-radius: 0.5vh; /* Закругление углов */
+    
+        cursor: pointer; /* Курсор при наведении */
+    
+    }
+    
+    .button:hover {
+    
+        background-color: #3e0051; /* Темнее при наведении */
+    
+    }
+    
+    .tg{
+        display: flex;
+        margin-left: 1.5vw;
+        
+    }
+    .anketa1 {
+        display: grid;
+    
+        grid-template-rows: 32vh 20vh 15vh;
+    }
+    .text_anketa {
+        margin-left: 2vh;
+    }
+    .name__anketa {
+        font-size: 8vw;
+    }
+    .act1, .act2, .act {
+        font-size: 6vw;
+    }
+    .data {
+        font-size: 6vw;
+    }
+    .prosm {
+        font-size: 6vw;
+    }
+    .redact {
+        height: 5vh;
+        border-radius: 1vh;
+        width: 70vw;
+        font-size: 6vw;
+        margin-left: 8vw;
+    }
+    .nomer__ank {
+        width: 70vw;
+        margin-left: 8vw;
+        text-align: center;
+        font-size: 6vw;
+    }
+    .prod {
+        margin-top: 0;
+        height: 8vw;
+        width: 8vw;
+        transform: translate(-50%, -50%);
+    }
+    
+    .logo {
+        margin-left: 5vw;
+        width: 50vw;
+    }
+    .mishki {
+        height: 15vw;
+        width: 15vw;
+    }
+    .marm {
+        transform: translate(0, 0%);
+        margin-top: 4vw;
+        font-size: 8vw;
+    }
+    nav, .tg {
+        display: none;
+    }
+    .mobile-btn {
+        margin-left: 15vw;
+        width: 20vw;
+        outline: none;
+        border: 0;
+    }
+    .mobile-btn {
+        display: block;
+    }
+    .add_profile {
+        margin-top: 12vw;
+    }
+
+    .footer {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100vw;
+        transform: translate(0, 0);
+        height: 35vw;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-footer {
+        font-size: 5vw;
+        margin: 0;
+    }
+    
+    .img-footer {
+        margin: 0;
+        right: 0;
+        width: 40vw;
+        height: 13vw;
+        margin-left: 0;
+    }
+
+    .add1{
+        font-size: 2.3vh;
+        font-style: italic;
+        margin-left: 0.8vh;
+        margin-top: 0.6vh;
+    }
+
+    .p_st{
+        font-size: 2vh;
+        width: 40vh;
+    }
+
+    .p_pay{
+        font-size: 2vh;
+        width: 40vh;
+        margin-top: 0vh;
+        margin-bottom: 3vh;
+    }
+
+    .anketa1{
+        width: 40vh;
+        height: 68vh;
+    }
+
+    .img__anketa{
+        width: 35vh;
+        height: 28vh;
+        margin-top: 2vh;
+        margin-left:2vh;
+    }
+}
+
+
+
+

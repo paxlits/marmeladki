@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Chintabelia';
+    src:url('fonts/Chintabelia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color:rgb(190, 194, 199);
+    width: 100vw;
+    height: 3vw;
+}
+
+
+
+
+.button-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18vw; /* Ширина контейнера */
+    margin: 0 auto;
+    padding-top: 0.7vw;
+    
+}
+.btn {
+    background: none;
+    border: 0;
+    padding: 0px 20px;
+    font-size: 1vw;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 0.6vw;
+    color: rgb(80, 80, 80);
+}
+.active {
+    border-bottom: #8a2be2 3px solid;
+}
+
+
+
+.btn:focus {
+    outline: none;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    height: 0.5vw;
+    width: 30%;
+    background: linear-gradient(to right, #ff24da, #8a2be2); /* Градиент от фиолетового к розовому */
+    transition: left 0.4s ease;
+    z-index: 0;
+    margin-top: 2vw;
+    filter: blur(0.5px);
+    border-radius: 3px 3px 0px 0px;
+}
+
+
+
+
+
+.imgcats{
+    width: 5vw;
+    height: auto;
+    filter: brightness(1.3);
+}
+
+.logo{
+    margin-left: 41vw;
+    margin-right: auto;
+    display: flex;
+    margin-top: 2vw;
+}
+
+.signin{
+    margin-left: 41vw;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+
+.singlc{
+    width: 22vw;
+    font-size: 1vw;
+    display: inline-block;
+    text-align: justify;
+    letter-spacing: 0.09vw;
+    color: rgb(80, 80, 80);
+}
+
+.logomar{
+    font-family: "Chintabelia";
+    font-size: 3vw;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+.signhelp{
+    margin-top: 1vw;
+    margin-left: 5.5vw;
+    color: lightslategray;
+    font-size: 0.8vw;
+
+}
+
+.vksvg{
+    width: 2.4vw;
+    height: auto;
+    fill: white;
+    display: flex;
+    align-items: center;
+}
+
+.vk{
+
+    display: flex;
+    border:0;
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    text-align: center;
+    width: 17vw;
+    height: 3vw;
+    margin-top: 1vw;
+    margin-left: 41vw;
+}
+
+.vkon{
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 0.5vw;
+}
+
+.inside{
+    width: 100%;
+    display: flex;
+    margin-left: 4.2vw;
+}
+
+.orall{
+    margin-left: 39vw;
+    margin-top: 1vw;
+    display: flex;
+}
+
+.or{
+    margin-left: 1vw;
+    color: lightslategray;
+    font-size: 1vw;
+}
+
+.line1{
+    margin-top:0.6vw;
+    margin-right: 0;
+    margin-left: 1vw;
+    width: 7.5vw;
+    height: 0.08vw;
+    background-color: lightslategray;
+}
+
+.input-container {
+    position: relative;
+    width: 17vw; /* Ширина контейнера */
+}
+
+.input-container input {
+    margin-top: 0.5vw;
+    width: 100%;
+    padding: 1vw 1vw 1vw 3vw; /* Отступы для иконки и текста */
+    font-size: 1vw;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 2.5vw;
+}
+
+
+.input-container svg {
+    position: absolute;
+    margin-top: 0.25vw;
+    top: 50%;
+    left:10px; /* Расстояние от правого края */
+    transform: translateY(-50%); /* Вертикальное центрирование */
+    width: 1.2vw; /* Ширина иконки */
+    height: auto; /* Высота иконки */
+}
+
+.name-and-pass{
+    margin-left: 41vw;
+}
+
+.registr{
+    margin-top: 1vw;
+    background: linear-gradient(to right, #ff24da, #8a2be2);
+    border: 0;
+    border-radius: 8px;
+    color:white;
+    width: 17vw;
+    height: 3vw;
+    font-size: 1vw;
+}
+
+
+.icon{
+    margin-left: 0.3vw;
+}
+@media (orientation: portrait) { 
+    .imgcats {
+        width: 10vh;
+        height: 10vh;
+        margin-left: auto;
+    }
+    .logomar {
+        margin-right: auto;
+        width: auto;
+        font-size: 6vh;
+    }
+    .logo {
+        margin-left: auto;
+    }
+    .signin {
+        margin-left: auto;
+        text-align: center;
+    }
+    .singlc {
+        text-align: center;
+        margin-left: auto;
+        width: 80vw;
+        font-size: 4.5vh;
+    }
+    .signhelp {
+        font-size: 4.2vh;
+    }
+    .vk {
+        margin-left: auto;
+        margin-top: 4vh;
+        margin-bottom: 4vh ;
+        margin-right: auto;
+        width: 90vw;
+        height: 7vh
+    }
+    .vksvg {
+        width: 4.5vh;
+        margin-left: auto
+    }
+    .vkon {
+        font-size: 2.5vh;
+        margin-left: 2vw;
+        margin-right: auto;
+    }
+    .orall {
+        margin-left: auto;
+        justify-content: center;
+    }
+    .line1 {
+        margin-top: auto;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom: auto;
+        width: 30vw;
+        height: 2px;
+    }
+    .or {
+        font-size: 2vh;
+    }
+    .name-and-pass {
+        margin-left: 0;
+    }
+    .name-and-pass {
+        margin-top: 2vh;
+    }
+    .input-container {
+        width: 90vw;
+        margin-left: auto;
+        margin-top: 1vh;
+        margin-right: auto;
+    }
+    .input-container input {
+        padding: 1vh;
+        padding-left: 6vh;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vh;
+    }
+    .input-container svg {
+        width: 4vh;
+    }
+    .registr {
+        position: relative;
+        transform: translate(-50%, 0);
+        left: 50%;
+        margin-top: 3vh;
+        font-size: 2.2vh;
+        margin-right: auto;
+        width: 90vw;
+        height: 7vh
+    }
+    .button-container {
+        width: 90vw;
+        
+        margin: 0 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        height: 14vw;
+        
+    }
+    .btn {
+        margin-left: 12vw;
+        padding: 0;
+        font-size: 7vw;
+    }
+}
